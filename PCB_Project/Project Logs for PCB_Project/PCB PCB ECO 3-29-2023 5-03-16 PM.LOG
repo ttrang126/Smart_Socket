@@ -1,0 +1,15 @@
+Change Component Footprint: Designator=C4 Old Footprint=C3MM New Footprint=C5mm
+Change Component Footprint: Designator=C5 Old Footprint=C3MM New Footprint=C5mm
+Change Component Footprint: Designator=C6 Old Footprint=C3MM New Footprint=C8mm
+Change Component Footprint: Designator=C3 Old Footprint=CAP_CERAMIC New Footprint=CN-0.47/400v
+Change Component Footprint: Designator=U1 Old Footprint=DIODE BRIDGE(FLAT) New Footprint=CAU 1A
+Change Component Footprint: Designator=R1 Old Footprint=SM-0805 New Footprint=RES-1WD
+Change Component Footprint: Designator=R3 Old Footprint=SM-0805 New Footprint=RES-1WD
+Change Component Footprint: Designator=D1 Old Footprint=SMA New Footprint=DO-214AC(SMA)
+Change Component Footprint: Designator=D2 Old Footprint=SMA New Footprint=DO-214AC(SMA)
+Change Component Footprint: Designator=D3 Old Footprint=SMA New Footprint=DO-214AC(SMA)
+Added Component: Designator=L2(L-SMD-M-12x10)
+Add component (AddParameter): Name = "Value"; Value = "150 mH"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC4_1 Pin=L2-1
+Added Pin To Net: NetName=+5V Pin=L2-2
+Added Member To Class: ClassName=Power_Supply Member=Component L2 3.3uH
